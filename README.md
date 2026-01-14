@@ -1,6 +1,6 @@
-# Wavefront Top (wftop) [![Build Status](https://travis-ci.org/wavefrontHQ/wftop.svg?branch=master)](https://travis-ci.org/wavefrontHQ/wftop)
+# Wavefront Top (wftop)
 
-[Wavefront](https://docs.wavefront.com/) is a high-performance streaming analytics platform for monitoring and optimizing your environment and applications.
+[Wavefront](https://techdocs.broadcom.com/us/en/ca-enterprise-software/it-operations-management/dx-openexplore/saas.html) is a high-performance streaming analytics platform for monitoring and optimizing your environment and applications.
 
 Wavefront Top (wftop) is an interactive tool for exploring the live metric ingestion data shape and to explore which metric namespaces were used in the last X days. Lag information (from wallclock of the machine running wftop compared to the ignested timestamp) is also available which can be used to discover data points that might be lagging behind (likely at the source).
 
@@ -26,7 +26,7 @@ Wavefront Top (wftop) is an interactive tool for exploring the live metric inges
 Setting up wftop (the tool will persist the cluster/token to ~/.wftop)
 In the following screenshot: 
 * Cluster: is the name of your Wavefront instance (`<instance>.wavefront.com`)
-* Token is a [Wavefront API token](https://docs.wavefront.com/wavefront_api.html#generating-an-api-token) for your Wavefront instance. 
+* Token is a [Wavefront API token](https://techdocs.broadcom.com/us/en/ca-enterprise-software/it-operations-management/dx-openexplore/saas/administration/authorization-and-user-management/api_tokens.html) for your Wavefront instance. 
 
 ![Setup Screen](https://raw.githubusercontent.com/wavefronthq/wftop/master/screenshots/SetupScreen.png)
 
@@ -53,7 +53,7 @@ Configuration screen when spying on ID creations can configure the type of id cr
 ![Setup Screen](https://raw.githubusercontent.com/wavefronthq/wftop/master/screenshots/IdConfigurationScreen.png)
 
 ## Build
-Download latest version of [wftop.exe](https://wftop.s3.amazonaws.com/1.2/wftop.exe) for Windows.
+Download latest version of [wftop.exe](https://storage.googleapis.com/wavefront-static-assets-prod/wf-top-assets/wftop.exe) for Windows.
 
 ## Requirements
   * Java >= 1.8
